@@ -63,8 +63,70 @@
 // "" => false
 // "Akash" => true
 
-let someNumber = 10 
-let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// let someNumber = 10 
+// let stringNumber = String(someNumber)
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+//*****************  Operations  **************/
+
+let value = 5 
+let negValue = -value
+//console.log(negValue);
+
+// Arithmatic operations
+
+// console.log(2+2);//Addition
+// console.log(2-2);//Subtracton
+// console.log(2*2);//Multiplication
+// console.log(2**3);//Power
+// console.log(2/2);//Divide
+// console.log(2%2);//Modulus
+
+
+//String Conversions
+let str1 = "Hello"
+let str2 = " Akash"
+let str3 = str1 + str2
+//console.log(str3);
+
+// console.log(1 + "2");
+// console.log("2" + 1);
+// console.log("2" + 2 + 1);
+// console.log(1+2+"2");
+// console.log("1 "+"Akash");
+
+
+//Tricky conversion(Not recommended)
+//using + we can convert
+console.log(true);
+console.log(+true);
+console.log(+"Akash");//NaN
+console.log(+"");
+console.log("*******");
+
+
+let a = 10 ;
+a++;
+console.log(a);
+
+++a;
+console.log(a);
+
+//a++ + ++a;
+console.log(a);
+console.log(a++);
+
+
+
+
+
+
+
+
+
+
+
+
 
