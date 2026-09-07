@@ -46,6 +46,9 @@ const bigNumber = 564544568454n//If we want to represent any number as BigInt ju
 const Heroes =["Hulk","Thor","Shaktimaan"];
 // console.log(typeof Heroes);
 
+console.log(typeof Heroes);
+
+
 //Object (Declared inside {})
 let myObj = {
     name : "Akash",
@@ -57,6 +60,7 @@ let myObj = {
 let myFunction = function (){
     //console.log("hello");
 }
+
 // console.log(typeof myFunction);
 
 //***************************************************** */
@@ -92,5 +96,8 @@ console.log(user1.email);
 console.log(user2.email);
 
 
+
+
+console.log(typeof myFunction);
 
 
