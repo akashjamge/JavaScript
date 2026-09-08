@@ -12,7 +12,7 @@ let gameName = new String("Akash jamge")
 // console.log(gameName[0]);//A
 
 //String inBuilt functions
-// console.log(gameName.__proto__);//Syntax
+// console.log(gameName.__proto__);// Syntax
 // console.log(gameName.length);//11
 // console.log(gameName.toUpperCase());//AKASH JAMGE
 // console.log(gameName.charAt(6));//j
