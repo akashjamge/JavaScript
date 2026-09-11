@@ -36,12 +36,37 @@ const obj4 = {...obj1,...obj2}//spread operator
 // console.log(obj4);
 
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
+//Destructuring of object
+const course = {
+    courseName:"Java",
+    price:"999",
+    trainer:"Rohit"
+}
+const {trainer : teacher} = course //Syntax
+// console.log(trainer);
+// console.log(teacher);
 
+
+// structure of JSON
+
+// {
+//     "name" : "Akash",
+//     "age":25,
+//     "city":"pune"
+// }
+
+   // OR
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
