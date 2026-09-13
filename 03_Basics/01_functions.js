@@ -70,4 +70,49 @@ function isLoggedIn(username = "Akash"){
     }
     return `${username} just logged in`
 }
-console.log(isLoggedIn("Sam"));    
+// console.log(isLoggedIn("Sam"));    
+
+
+
+// Using rest operator in functions (rest operator => ...variableName)
+// function calculatecartPrice(...num1){ 
+//     return num1
+// }
+// console.log(calculatecartPrice(200,500,1000,2000));
+
+function calculatecartPrice(val1,val2,...num1){ 
+    return num1
+}
+// console.log(calculatecartPrice(200,500,1000,2000));
+
+
+
+// function with object
+
+const user = {
+    username : "Akash",
+    price : 199
+}
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+// handleObject(user)
+
+// Another way
+// handleObject(
+//     {
+//         username:"sam",
+//         price:100
+//     }
+// )
+
+// functions with Array
+
+const myNewArray = [100,200,300,400]
+
+function secondArray(getArray){
+    return getArray[0]
+}
+// console.log(secondArray(myNewArray));
+         // OR
+// console.log(secondArray([100,200,300,400]));
